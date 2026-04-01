@@ -174,7 +174,7 @@ HTML = """
 <body>
 
 <nav>
-  <div class="logo">Gen<span>Sa</span></div>
+  <div class="logo">Killer<span>Ntua</span></div>
   <div>
     <a href="#">Home</a>
     <a href="#">Browse</a>
