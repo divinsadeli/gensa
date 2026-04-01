@@ -20,26 +20,26 @@ HTML = """
       padding: 1rem 2rem;
       display: flex; align-items: center; justify-content: space-between;
     }
-    .logo { font-size: 1.6rem; font-weight: 700; color: #c0476e; letter-spacing: -0.5px; }
-    .logo span { color: #3a9a6e; }
-    nav a { color: #c0476e; text-decoration: none; font-size: 0.9rem; margin-left: 1.5rem; }
+    .logo { font-size: 1.6rem; font-weight: 700; color: #10b981; letter-spacing: -0.5px; }
+    .logo span { color: #2563eb; }
+    nav a { color: #10b981; text-decoration: none; font-size: 0.9rem; margin-left: 1.5rem; }
 
     /* HERO */
     .hero {
       display: flex; align-items: center; justify-content: space-between;
       padding: 4rem 2rem 2rem; gap: 2rem; max-width: 1100px; margin: 0 auto;
     }
-    .hero-text h1 { font-size: 2.6rem; line-height: 1.2; color: #c0476e; max-width: 480px; }
-    .hero-text h1 span { color: #3a9a6e; }
-    .hero-text p { margin: 1rem 0 1.5rem; color: #666; font-size: 1.05rem; max-width: 420px; }
+    .hero-text h1 { font-size: 2.6rem; line-height: 1.2; color: #10b981; max-width: 480px; }
+    .hero-text h1 span { color: #2563eb; }
+    .hero-text p { margin: 1rem 0 1.5rem; color: #4b5563; font-size: 1.05rem; max-width: 420px; }
     .btn {
-      background: #c0476e; color: #fff; border: none;
+      background: #10b981; color: #fff; border: none;
       padding: 0.75rem 2rem; border-radius: 2rem; font-size: 1rem;
       cursor: pointer; text-decoration: none; display: inline-block;
     }
     .btn-outline {
-      background: transparent; color: #3a9a6e;
-      border: 2px solid #3a9a6e; margin-left: 1rem;
+      background: transparent; color: #2563eb;
+      border: 2px solid #2563eb; margin-left: 1rem;
     }
 
     /* STUDENT MOVE-IN IMAGE (pure CSS illustration) */
@@ -61,11 +61,11 @@ HTML = """
     .door {
       position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);
       width: 40px; height: 60px;
-      background: #3a9a6e; border-radius: 4px 4px 0 0;
+      background: #2563eb; border-radius: 4px 4px 0 0;
     }
     .window {
       position: absolute; width: 30px; height: 30px;
-      background: #a8d8c0; border-radius: 3px; border: 2px solid #3a9a6e;
+      background: #a8d8c0; border-radius: 3px; border: 2px solid #2563eb;
     }
     .w1 { top: 40px; left: 30px; }
     .w2 { top: 40px; right: 30px; }
@@ -102,7 +102,7 @@ HTML = """
     .box::after {
       content: ''; position: absolute;
       top: 50%; left: 0; right: 0; height: 2px;
-      background: #c0476e;
+      background: #10b981;
     }
     .grass {
       position: absolute; bottom: 0; left: 0; right: 0; height: 55px;
@@ -120,7 +120,7 @@ HTML = """
     }
     .sign {
       position: absolute; top: 14px; left: 50%; transform: translateX(-50%);
-      background: #3a9a6e; color: #fff; font-size: 0.65rem;
+      background: #2563eb; color: #fff; font-size: 0.65rem;
       font-weight: 700; padding: 3px 8px; border-radius: 4px; white-space: nowrap;
     }
 
@@ -130,7 +130,7 @@ HTML = """
       box-shadow: 0 2px 16px rgba(192,71,110,0.08);
       max-width: 700px; margin: 1rem auto 2rem;
     }
-    .search-section h2 { color: #c0476e; margin-bottom: 1rem; font-size: 1.2rem; }
+    .search-section h2 { color: #10b981; margin-bottom: 1rem; font-size: 1.2rem; }
     .search-row { display: flex; gap: 0.75rem; flex-wrap: wrap; }
     .search-row select, .search-row input {
       flex: 1; min-width: 150px;
@@ -142,7 +142,7 @@ HTML = """
 
     /* LISTINGS */
     .listings { max-width: 1100px; margin: 0 auto 3rem; padding: 0 2rem; }
-    .listings h2 { color: #3a9a6e; margin-bottom: 1.25rem; font-size: 1.3rem; }
+    .listings h2 { color: #2563eb; margin-bottom: 1.25rem; font-size: 1.3rem; }
     .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
     .card {
       background: #fff; border-radius: 1rem;
@@ -153,11 +153,11 @@ HTML = """
     .card-tag {
       display: inline-block; font-size: 0.75rem; font-weight: 600;
       padding: 3px 10px; border-radius: 2rem;
-      background: #e6f7f0; color: #3a9a6e; margin-bottom: 0.75rem;
+      background: #e6f7f0; color: #2563eb; margin-bottom: 0.75rem;
     }
     .card h3 { color: #c0476e; font-size: 1rem; margin-bottom: 0.25rem; }
     .card .loc { font-size: 0.82rem; color: #888; margin-bottom: 0.5rem; }
-    .card .price { font-size: 1.1rem; font-weight: 700; color: #3a9a6e; margin-bottom: 0.75rem; }
+    .card .price { font-size: 1.1rem; font-weight: 700; color: #2563eb; margin-bottom: 0.75rem; }
     .card .price span { font-size: 0.8rem; color: #999; font-weight: 400; }
     .card .amenities { font-size: 0.78rem; color: #888; margin-bottom: 1rem; }
     .card .btn { font-size: 0.85rem; padding: 0.5rem 1.25rem; }
@@ -165,10 +165,10 @@ HTML = """
     /* FOOTER */
     footer {
       text-align: center; padding: 1.5rem;
-      background: #fff0f5; color: #c0476e; font-size: 0.85rem;
+      background: #fff0f5; color: #10b981; font-size: 0.85rem;
       border-top: 1.5px solid #f7b8d0;
     }
-    footer span { color: #3a9a6e; }
+    footer span { color: #2563eb; }
   </style>
 </head>
 <body>
